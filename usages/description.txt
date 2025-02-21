@@ -1,0 +1,13 @@
+  ___                 _      _   _             
+ |   \ ___ ___ __ _ _(_)_ __| |_(_)___ _ _  ___
+ | |) / -_|_-</ _| '_| | '_ \  _| / _ \ ' \(_-<
+ |___/\___/__/\__|_| |_| .__/\__|_\___/_||_/__/
+                       |_|                     
+
+1: Random balls generation (Interaction : Up arrows = reset).
+2: 3D cylinder rolling from right to left.
+3: 3D cylinder retouch.
+
+Caution : Animation #2 is really laggy, reduce the window's size 
+or activate the LOW_DETAIL in option.h to get better performances.
+

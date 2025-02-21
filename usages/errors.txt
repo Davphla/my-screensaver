@@ -1,0 +1,2 @@
+./my_screensaver: bad argument: %d given but %d is required
+retry with -h
