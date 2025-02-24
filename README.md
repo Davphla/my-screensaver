@@ -67,7 +67,5 @@ The following functions are allowed:
 ├── README.md
 ```
 
-## Author
+## Author 🚀
 - **David Gozlan** (GitHub: `davphla`)
-
-Enjoy coding! 🚀
