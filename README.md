@@ -1,11 +1,16 @@
 # My Screensaver - Graphical Effects Renderer
 
-## Overview
 My Screensaver is a graphical effects renderer written in C. It displays various animations using **CSFML**.
+It was realized in the context of learning graphic rendering and CSFML, further used all along my studies.
+This project explores rendering techniques that are useful for developing complex animations and visual effects.
 
-This project explores rendering techniques that are useful for developing complex animations and visual effects, which can later be used in other graphical applications such as video games.
+This project has 2 differents animations
+- Random circle animation using frame buffer, changeable using `UP_ARROW`
+- Fake 3D effect inspired by [Spu7nix level](https://www.youtube.com/watch?v=UKqMBAxxun8&pp=ygUHU3B1N25peA%3D%3D)
 
 ## Compilation
+:warning: This project depends on **CSFML**, which is a binding of **SFML** in C. You must install it before compiling the project.
+
 The project is compiled using a `Makefile` with the following rules:
 
 - `make` - Compiles the binary (`my_screensaver`).
@@ -53,19 +58,5 @@ The following functions are allowed:
 ### Math Library
 - All mathematical functions are allowed.
 
-## Project Structure
-```
-.
-├── src
-│   ├── main.c
-│   ├── animations.c
-│   ├── ... (other source files)
-├── include
-│   ├── my_screensaver.h
-├── bonus (optional bonus files)
-├── Makefile
-├── README.md
-```
-
 ## Author 🚀
-- **David Gozlan** (GitHub: `davphla`)
+- [**David Gozlan**](https://github.com/Davphla)
